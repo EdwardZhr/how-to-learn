@@ -193,7 +193,7 @@
 
 .feynman {
   background: url(../images/feynman.png) no-repeat;
-  background-size: 867px 637px; 
+  background-size: 867px 637px;
   background-position: left bottom;
   padding-top: 100px;
   display: flex;
@@ -241,7 +241,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .kaufman__triangle {
