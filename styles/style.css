@@ -102,7 +102,7 @@
   width: 175px;
   color: #2f80ed;
   font-weight: normal;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -166,6 +166,8 @@
   flex-wrap: wrap;
   z-index: 1;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .table__cell {
@@ -201,9 +203,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 756px;
+  height: 890px;
   position: relative;
   background-color: #f2f2f2;
+  box-sizing: border-box;
 }
 
 .feynman__title {
@@ -287,14 +290,15 @@
 }
 
 .footer__column-links {
-  margin: 20px auto 16px;
+  margin: 20px 0 16px;
   list-style-type: none;
   padding: 0;
 }
 
-.footer__column-links ul {
+.footer__column-list {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 .footer__column-link {
